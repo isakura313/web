@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+.promo{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px 5px 10px 3px;
+    height: 200px;
+    width: 400px;
+    margin: 20px auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.promo .btn{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px grey;
+    background-color: purple;
+    color: white;
+}
+.promo .btn:hover{
+    box-shadow: -5px 3px 10px rgb(67, 19, 122);
+    cursor: pointer;
+    transition: all 1s;
+    background-color: white;
+    color: purple;
+}
